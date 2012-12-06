@@ -21,7 +21,7 @@ if ( !class_exists( 'WC_LTC_Currency' ) ) {
          */
         public function __construct() {
 
-            // Actions
+            // Actions.
             add_action( 'plugins_loaded', array( &$this, 'load_textdomain' ), 0 );
 
             // Filters.
