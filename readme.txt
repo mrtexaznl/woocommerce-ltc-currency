@@ -23,15 +23,6 @@ Please notice that [WooCommerce](http://wordpress.org/extend/plugins/woocommerce
 * Activate the plugin
 * Navigate to WooCommerce -> Settings -> General and choose **Litecoin** in **Currency** option.
 
-== License ==
-
-This file is part of WooCommerce LTC Currency.
-WooCommerce LTC Currency is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published
-by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-WooCommerce LTC Currency is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-You should have received a copy of the GNU General Public License along with Author Bio Box. If not, see <http://www.gnu.org/licenses/>.
-
 == Frequently Asked Questions ==
 
 = What is the plugin license? =
@@ -49,3 +40,13 @@ You should have received a copy of the GNU General Public License along with Aut
 = 1.0 =
 
 * Enjoy it.
+
+== License ==
+
+WooCommerce LTC Currency is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published
+by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+WooCommerce LTC Currency is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with WooCommerce LTC Currency. If not, see <http://www.gnu.org/licenses/>.
