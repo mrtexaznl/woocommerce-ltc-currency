@@ -5,11 +5,11 @@
  * Description: Adds Litecoin currency in WooCommerce
  * Author: claudiosanches
  * Author URI: http://claudiosmweb.com/
- * Version: 1.0
+ * Version: 2.0
  * License: GPLv2 or later
  */
 
-if ( !class_exists( 'WC_LTC_Currency' ) ) {
+if ( ! class_exists( 'WC_LTC_Currency' ) ) {
 
     /**
      * Add LTC Currency in WooCommerce.
@@ -46,14 +46,14 @@ if ( !class_exists( 'WC_LTC_Currency' ) ) {
          * @return array             Currencies with LTC.
          */
         public function add_currency( $currencies ) {
-            $currencies['LTC'] = __( 'Litecoin (&#11360;)', 'wcltc' );
+            $currencies['LTC'] = __( 'Litecoin', 'wcltc' );
             asort( $currencies );
 
             return $currencies;
         }
 
         /**
-         * Add LTC Symbol
+         * Add LTC Symbol.
          *
          * @param  string $currency_symbol Currency symbol.
          * @param  array  $currency        Current currencies.

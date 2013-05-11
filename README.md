@@ -3,7 +3,7 @@
 **Tags:** ecommerce, e-commerce, commerce, wordpress ecommerce, currency, litecoin, ltc  
 **Requires at least:** 3.0  
 **Tested up to:** 3.4.2  
-**Stable tag:** 1.0  
+**Stable tag:** 2.0  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -30,6 +30,10 @@ Please notice that [WooCommerce](http://wordpress.org/extend/plugins/woocommerce
 * This plugin is released under a GPL license.
 
 ## Changelog ##
+
+### 2.0 =###
+
+* Updated to WooCommerce 2.0.
 
 ### 1.0 ###
 
