@@ -10,6 +10,8 @@
  */
 
 if ( ! class_exists( 'WC_LTC_Currency' ) ) {
+    
+    TODO: rename file
 
     /**
      * Add LTC Currency in WooCommerce.
