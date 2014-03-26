@@ -10,9 +10,7 @@
  */
 
 if ( ! class_exists( 'WC_MED_Currency' ) ) {
-    
-    TODO: rename file
-
+ 
     /**
      * Add MED Currency in WooCommerce.
      */
