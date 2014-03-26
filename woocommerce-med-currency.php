@@ -1,22 +1,22 @@
 <?php
 /**
- * Plugin Name: WooCommerce LTC Currency
+ * Plugin Name: WooCommerce MED Currency
  * Plugin URI: http://claudiosmweb.com/
- * Description: Adds Litecoin currency in WooCommerce
+ * Description: Adds MediterraneanCoin currency in WooCommerce
  * Author: claudiosanches
  * Author URI: http://claudiosmweb.com/
  * Version: 2.0
  * License: GPLv2 or later
  */
 
-if ( ! class_exists( 'WC_LTC_Currency' ) ) {
+if ( ! class_exists( 'WC_MED_Currency' ) ) {
     
     TODO: rename file
 
     /**
-     * Add LTC Currency in WooCommerce.
+     * Add MED Currency in WooCommerce.
      */
-    class WC_LTC_Currency {
+    class WC_MED_Currency {
 
         /**
          * Class construct.
@@ -41,30 +41,30 @@ if ( ! class_exists( 'WC_LTC_Currency' ) ) {
         }
 
         /**
-         * Add LTC Currency in WooCommerce.
+         * Add MED Currency in WooCommerce.
          *
          * @param  array $currencies Current currencies.
          *
-         * @return array             Currencies with LTC.
+         * @return array             Currencies with MED.
          */
         public function add_currency( $currencies ) {
-            $currencies['LTC'] = __( 'Litecoin', 'wcltc' );
+            $currencies['MED'] = __( 'MediterraneanCoin', 'wcltc' );
             asort( $currencies );
 
             return $currencies;
         }
 
         /**
-         * Add LTC Symbol.
+         * Add MED Symbol.
          *
          * @param  string $currency_symbol Currency symbol.
          * @param  array  $currency        Current currencies.
          *
-         * @return string                  LTC currency symbol.
+         * @return string                  MED currency symbol.
          */
         public function currency_symbol( $currency_symbol, $currency ) {
             switch( $currency ) {
-                case 'LTC':
+                case 'MED':
                     $currency_symbol = '&#11360;';
                     break;
             }
@@ -72,7 +72,7 @@ if ( ! class_exists( 'WC_LTC_Currency' ) ) {
             return $currency_symbol;
         }
 
-    } // close WC_LTC_Currency class.
+    } // close WC_MED_Currency class.
 
-    $WC_LTC_Currency = new WC_LTC_Currency();
+    $WC_MED_Currency = new WC_MED_Currency();
 }
